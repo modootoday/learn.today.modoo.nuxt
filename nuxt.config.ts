@@ -6,7 +6,7 @@ import googleFonts from "./configs/google-fonts"
 export default defineNuxtConfig({
   ssr: false,
   target: 'static',
-  app: { baseURL: '/learn.today.modoo.nuxt/' },
+  app: { baseURL: '/' },
   experimental: { payloadExtraction: false },
   modules: [
     '@nuxt/image-edge',
