@@ -1,0 +1,1 @@
+import{H as c,I as o,S as t,o as n,U as s}from"./entry.0e5d47d8.js";const _={},a={class:"min-h-screen flex flex-col"};function r(f,l){const e=s;return n(),o("div",a,[t(e)])}const m=c(_,[["render",r]]);export{m as default};
