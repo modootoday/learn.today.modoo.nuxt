@@ -18,7 +18,7 @@ export default defineComponent({
 })
 </script>
 <template>
-  <div class="min-h-screen" @click="handleClick">
-    <ContentDoc class="prose max-w-full" />
+  <div class="prose min-h-screen" @click="handleClick">
+    <h1>Hello, World!</h1>
   </div>
 </template>
