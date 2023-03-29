@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 20335",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages --dotfiles -d .output/public"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.5.2",
+    "@nuxt/devtools": "^0.2.5",
+    "@nuxt/image-edge": "^1.0.0-27991759.1a5eea1",
+    "@nuxtjs/google-fonts": "^3.0.0",
+    "@nuxtjs/i18n": "^8.0.0-beta.10",
+    "@nuxtjs/tailwindcss": "^6.6.4",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/container-queries": "^0.1.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.9",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/nuxt": "^9.13.0",
+    "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
+    "nuxt": "^3.3.2",
+    "nuxt-icon": "^0.3.3",
+    "postcss": "^8.4.21",
+    "sass": "^1.60.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "numeral": "^2.0.6",
+    "openai": "^3.2.1",
+    "sprintf-js": "^1.1.2"
+  }
+}
